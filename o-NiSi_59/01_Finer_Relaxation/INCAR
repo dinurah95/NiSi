@@ -1,0 +1,24 @@
+# Finer Relax Self Consistent Field Run
+
+SYSTEM = NiSi Orthorhombic
+# IVDW = 11
+NCORE = 2
+PREC = Accurate
+EDIFF = 1E-10
+EDIFFG = -1E-5
+
+ISMEAR = 0      
+SIGMA = 0.03   
+GGA = PE
+
+ENCUT = 520     
+NSW = 100        
+
+IBRION = 2     
+ISIF = 3       
+
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+
+# ISPIN = 2
+# MAGMOM = numberofions*initialguess 

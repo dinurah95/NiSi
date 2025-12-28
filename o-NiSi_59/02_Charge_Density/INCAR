@@ -1,0 +1,31 @@
+# Charge Density Self Consistent Field Run
+
+SYSTEM = NiSi Orthorhombic
+# IVDW = 11      
+NCORE = 2
+PREC = Accurate
+EDIFF = 1E-10
+EDIFFG = -1E-5
+
+ISMEAR = 0      
+SIGMA = 0.03    
+GGA = PE
+
+ENCUT = 520    
+NSW = 0        
+
+IBRION = -1     
+ISIF = 0        
+
+LWAVE = .FALSE.
+# LCHARG = .FALSE.
+
+EFERMI = MIDGAP
+
+# ISPIN = 2   
+# MAGMOM = numberofions*initialguess
+
+# LSORBIT = .TRUE.
+# MAGMOM = x y z
+# GGA_COMPAT = .FALSE.
+# LASPH = .TRUE.
