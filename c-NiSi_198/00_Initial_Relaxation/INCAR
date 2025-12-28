@@ -1,0 +1,18 @@
+# Initial Relaxation Self Consistent Field Run
+
+SYSTEM = NiSi Cubic P 21 3 (198) FeSi type 
+PREC = Accurate
+EDIFF = 1E-8
+
+ISMEAR = 0
+SIGMA = 0.03
+GGA = PE
+
+ENCUT = 520
+NSW = 100
+
+IBRION = 2
+ISIF = 3
+
+LWAVE = .FALSE.
+LCHARG = .FALSE.
